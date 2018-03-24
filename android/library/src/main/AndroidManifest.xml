@@ -1,4 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="org.weex.plugin.device">
+    package="org.weex.plugin.device">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application>
+        <activity
+            android:name=".CaptureMyActivity"
+            android:theme="@style/activity.Theme"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
 
 </manifest>
